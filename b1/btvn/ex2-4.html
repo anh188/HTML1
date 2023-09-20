@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table, tr, td{
+        table-layout: fixed;    
+    }
+    input{
+        width: 98%;
+        margin: 0;
+        padding: 0;
+
+    }
+
+</style>
+<body>
+    <form action="from.php" method="post">
+        <table width="300px" hight="200px" border="1px" align="center">
+            <tr style="text-align: center; background-color: gray; color: white;">
+                <td colspan="2">Đăng nhập hệ thống</td>
+            </tr>
+
+            <tr>
+                <td>Tên tài khoản</td>
+                <td><input type="text" id="username" name="username" required></td>
+            </tr>
+
+            <tr>
+                <td>Mật khẩu</td>
+                <td><input type="password" id="password" name="password" required></td>
+            </tr>
+
+            <tr>
+                <td>Xác nhận mật khẩu</td>
+                <td><input type="password" id="password" name="password" required></td>
+            </tr>
+
+            <tr>
+                <td>ghi nhớ</td>
+                <td><input type="checkbox"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><input style="width: 30%;" type="button" value="Đăng nhập"> <input style="width: 30%;" type="button" value="Làm mới"></td>
+            </tr>
+            <tr style="height: 20px; background-color: gray;">
+                <td colspan="2"></td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
