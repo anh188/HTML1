@@ -81,7 +81,7 @@
                 <table  width="100%">
                     <tr>
                         <td>Tên tài khoản</td>
-                        <td><input style="width: 80%;" type="text" id="username" name="username" required></td>
+                        <td><input style="width: 80%;" type="text" id="username" name="username" placeholder="Vui lòng nhập tên tài khoản..."required></td>
                     </tr>
                     <tr>
                         <td>Địa chỉ</td>
@@ -89,7 +89,7 @@
                     </tr>
                     <tr>
                         <td>Email</td>
-                        <td><input style="width: 80%;" type="email" id="email" name="email" required></td>
+                        <td><input style="width: 80%;" type="email" id="email" name="email" placeholder="Vui lòng nhập địa chỉ email..." required></td>
                     </tr>
                     <tr>
                         <td>Giới tính</td>
@@ -99,6 +99,29 @@
                             
                             <input type="radio" id="female" name="gender" value="female">
                             <label for="female">Nữ</label>
+                    </tr>
+                    <tr>
+                        <td>Gửi tới</td>
+                        <td>
+                            <select name="phongban" id="" va>
+                                <option value="">vui long chon phong ban</option>
+                                <option value="">option2</option>
+                                <option value="">option3</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Nội dung liên hệ</td>
+                        <td>
+                            <textarea id="feedback" name="textarea" rows="5" cols="30" placeholder="Nội dung bạn muốn phản ánh..." required></textarea>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td>Lựa chọn nâng cao</td>
+                        <td><input type="checkbox" id="checkbox" name="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="Gửi"> <input type="button" value="Làm mới">   </td>
                     </tr>
                 </table>
                 
