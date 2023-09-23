@@ -1,0 +1,160 @@
+*{
+    font-size: 12px;
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-image: url(/b2/btvn/bai3.2/img-bai32/background-la-gi\ \(13\).jpg);
+    scroll-behavior: smooth;/*cuộn*/
+    font-family: Arial;
+    /* background-repeat: no-repeat;    */
+    background-size:cover ;
+}
+
+body{
+    padding: 10px;  
+}
+
+
+#main{
+    background-color: white;
+
+    border: 5px solid white;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.cover{
+    width: 100%;
+}
+
+.menu{
+    background-color: rgb(79, 79, 79);
+    text-align: left;
+    padding: 10px;
+    border-bottom:  3px solid orange;
+    margin-bottom: 20px;
+}
+
+.member-menu{
+    color: orange;
+    border-right: 1px solid #383838;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.15); /* Đổ bóng border*/
+    padding: 10px;
+}
+
+.line{
+    margin-bottom: 20px;
+}
+
+.danhmuc{
+    background-color: rgb(79, 79, 79);
+    text-align: center;
+    padding: 10px;
+    border-left:  10px solid orange;
+    margin-bottom: 10px;
+    color: #fff;
+
+}
+
+.danhmuc-nho{
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+
+.danhmuc-content{
+    padding: 0 10px;
+    line-height: 20px;/*Khoảng cách các dòng*/
+    color: black;
+}
+
+.nav > li > a{
+    color: black;
+}
+
+ul{
+    list-style: none; /*bỏ chấm (bullet) mặc định ở thẻ <li>*/
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+    border: none !important;
+}
+#mid{   
+    display: flex;
+}
+
+#info{
+    margin: 0 15px;
+    width: 50%;
+
+}
+#menuleft{
+
+    width: 25%;
+}
+
+#menuright{
+
+    width: 25%;
+}
+
+.gioithieu{
+    text-align: justify; 
+    border-radius: 30px;/*bo góc*/
+    width: 100%;
+    background-color: rgba(232, 141, 36, 0.62);
+    margin-right: 20px;
+}
+
+.content-info{
+    padding: 10px 20px;
+    width: 100%;
+    color: #fff;
+    font-style: italic;
+}
+
+.info-cntt{
+    margin-top: 10px;
+}
+.info-cntt-right{
+    text-align: right;
+}
+
+.tieude-right{
+    color: #fff;
+    background: linear-gradient(to right, orange 70%, #484646 20%);
+    border-bottom:  3px solid orange;
+}
+.tieude{
+    color: #fff;
+    background: linear-gradient(to right, orange 20%, #484646 70%);
+    border-bottom:  3px solid orange;
+}
+
+.text{
+    text-align: justify;
+}
+
+.chitiet{
+    color: orange;
+}
+
+#footer{
+    background: #484646;
+    border-top:  3px solid orange;
+    text-align: center;
+    padding-top: 10px;
+    height: 40px;
+}   
+
+.tenbaiviet{
+    color: orange;
+}

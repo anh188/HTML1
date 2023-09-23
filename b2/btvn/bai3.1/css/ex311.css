@@ -1,0 +1,74 @@
+#sanpham{
+    text-align: center;
+}
+
+#sanpham .sanpham-inf{
+    display: flex;    
+    padding: 30px;
+}
+
+.phone-img{
+    width: 70%;
+    padding: 5px;
+}
+
+.phone{
+    margin: 20px;
+    border: 1px solid black;
+}
+
+.phone:hover{
+    border: 2px solid red;
+}
+
+.name{
+    color: burlywood;
+    font-weight: 500;
+
+}
+
+.name:hover{
+    color: black;
+}
+
+.price{
+    color: red;
+    font-weight: 800; /*Độ dày của chữ*/
+    margin: 0;
+}
+
+.price:hover{
+    color: blue;
+}
+
+#contact{
+    /* text-align: center; */
+    line-height: 3;/*Khoảng cách giữa các dòng*/
+    width: 100%;
+    margin: 0;
+    
+}
+table{
+    table-layout: fixed;    
+}
+.icon{
+    margin: 20px;
+}
+
+.icon:before {
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+}
+.icon a:hover{
+    color: aqua;
+    text-decoration:solid;
+    font-weight: 800; /*Độ dày của chữ*/
+    text-decoration: underline; /*gạch chân chữ khi hover*/
+}
+td{
+    width: 40%;
+}
+
+

@@ -1,25 +1,19 @@
+ml
+Copy code
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Form Đăng Nhập</title>
+    <title>Textarea Example</title>
 </head>
 <body>
-    <h2>Đăng Nhập</h2>
-    <form action="process-login.php" method="post">
-        <table>
-            <tr>
-                <td>Tên người dùng:</td>
-                <td><input type="text" id="username" name="username" required></td>
-            </tr>
-            <tr>
-                <td>Mật khẩu:</td>
-                <td><input type="password" id="password" name="password" required></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td><input type="submit" value="Đăng Nhập"></td>
-            </tr>
-        </table>
+    <h2>Nhập phản ánh của bạn</h2>
+    <form>
+        <label for="feedback">Phản ánh của bạn:</label>
+        <textarea id="feedback" name="textarea" rows="5" cols="30" placeholder="Nội dung bạn muốn phản ánh..." required></textarea>
+
+        <br>
+
+        <input type="submit" value="Gửi">
     </form>
 </body>
-</html
+</html>
