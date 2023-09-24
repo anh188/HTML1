@@ -22,7 +22,8 @@ body{
 }
 
 .menu-head{
- 
+    font-size: 30px;
+    font-style: italic;
     margin: 0;
     padding: 20px 30px;
 }

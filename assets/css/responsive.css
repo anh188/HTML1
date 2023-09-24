@@ -1,0 +1,116 @@
+/*mobile*/
+@media (max-width: 46.1875em){
+    .s-full-width{
+        width: 100%;
+    }
+
+    .s-col-full{
+        width: 100%;
+    }
+
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+
+    #header{
+        overflow: hidden;
+    }
+
+    #header .search-btn{
+        display: none;
+    }
+
+    #nav{
+        display: block;
+    }
+    #nav > li{
+        display: block;
+    }
+
+    #nav > li:first-child/*lớp giả: con đầu*/{
+        display: inline-block;
+    }
+    
+    #nav .subnav{
+        background: #333;
+        position: initial;/*giá trị mặc định*/
+    }
+
+    #nav li a{
+        padding: 1px 24px;
+    }
+
+    /* #nav li:hover .subnav{
+        position: initial;
+    } */
+
+    #nav .subnav li{
+        display: block;
+    }
+
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 52px;
+    }
+
+    #content .member-img{
+        width: 70%;
+    }
+
+    .col-third{
+        width: 100%;
+        padding: 8px;
+    }
+
+    .contact-form{
+        margin-top: 32px;
+    }
+    
+    .btn{
+        width: 100%;
+        /* text-align: center; */
+    }
+    
+    #footer .sosials-list{
+        font-size: 42px;   
+    }
+
+    #footer .sosials-list a{
+        margin: 0 2px; 
+    }
+}
+
+/*tablet*/
+@media (min-width: 46.25em) and (max-width: 63.9375em){
+    #footer .sosials-list{
+        font-size: 48px;   
+    }
+
+    #footer .sosials-list a{
+        margin: 0 8px; 
+    }    
+}
+
+/*mobile - tablet*/
+@media(max-width: 63.9375em){
+    .btn{
+        padding: 15px 16px;
+    }
+
+    .contact-form .form-control{
+        padding: 15px;
+        font-size: 18px;
+    }
+
+    .contact-info{
+        line-height: 2;
+    }
+
+}
+
+/*tablet - pc*/
+@media (min-width: 46.25em){
+    .mobile-menu-btn{
+        display: none;
+    }
+}

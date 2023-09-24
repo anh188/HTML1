@@ -10,13 +10,12 @@ html{
     scroll-behavior: smooth;/*cuộn*/
     font-family: Arial;
     /* background-repeat: no-repeat;    */
-    background-size:cover ;
+    background-attachment: fixed;/*Cố định ảnh nền so với nội dung web. */
 }
 
 body{
     padding: 10px;  
 }
-
 
 #main{
     background-color: white;
@@ -96,12 +95,7 @@ img{
     width: 50%;
 
 }
-#menuleft{
-
-    width: 25%;
-}
-
-#menuright{
+#menuleft, #menuright{
 
     width: 25%;
 }
@@ -128,14 +122,9 @@ img{
     text-align: right;
 }
 
-.tieude-right{
+.tieude-right, .tieude{
     color: #fff;
     background: linear-gradient(to right, orange 70%, #484646 20%);
-    border-bottom:  3px solid orange;
-}
-.tieude{
-    color: #fff;
-    background: linear-gradient(to right, orange 20%, #484646 70%);
     border-bottom:  3px solid orange;
 }
 
@@ -143,7 +132,7 @@ img{
     text-align: justify;
 }
 
-.chitiet{
+.chitiet, .tenbaiviet{
     color: orange;
 }
 
@@ -154,7 +143,3 @@ img{
     padding-top: 10px;
     height: 40px;
 }   
-
-.tenbaiviet{
-    color: orange;
-}
